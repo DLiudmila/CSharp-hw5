@@ -1,19 +1,6 @@
-﻿//int [] array = new int[10];
-//int i = 0;
-//    while (i < array.Length)
-//    {  
-//         array[i] = new Random().Next(100, 1000);
-//         i++;
-//    }
-//Console.WriteLine(array);   
+﻿// Задайте массив заполненный случайными положительными трёхзначными числами.
+//  Напишите программу, которая покажет количество чётных чисел в массиве.
  
-//int currentValue = 0;
-//int Value = array[i];
-//    if (Value % 2 == 0)
-//    {
-//        currentValue = currentValue + 1;     
-//    }
-//Console.WriteLine("Четных чисел в массиве: " + currentValue);    
        
 int[] array = new int[10];
 int currentValue = 0;
@@ -30,4 +17,4 @@ for (int i = 0; i < array.Length; i++)
        currentValue = currentValue + 1; 
     }
 }
-Console.WriteLine("Количество четных чисел в массиве:" + currentValue);
+Console.WriteLine("Количество четных чисел в массиве: " + currentValue);
