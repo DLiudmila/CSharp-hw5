@@ -10,7 +10,7 @@ for (int i = 0; i < array.Length; i++)
     Console.WriteLine($"Введите элемент массива под индексом {i}:  ");
     array[i] = Convert.ToDouble(Console.ReadLine());
 }
-Console.WriteLine('[' + string.Join(";", array) + ']');
+Console.WriteLine('[' + string.Join("; ", array) + ']');
 double max = double.MinValue;
 double min = double.MaxValue;
 for (int i = 0; i < array.Length; i++)
